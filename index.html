@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="cupcake">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,14 +52,16 @@
               </div>
             
             <div class="flex-1">
-                <img src="./images/logo.png" alt="" srcset="">
+                  <img src="./images/logo.png" alt="" srcset="" class="ml-36 md:ml-[480px] lg:ml-0 w-[50px] h-[50px]">
               <a class="px-1 normal-case text-2xl font-bold text-[#000] lg:text-[#fff]">Fruit Burst</a>
             </div>
             
-            <div class="hidden flex-none gap-2 -mt-5">
-              <div class="form-control">
-                <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-80 bg-white"   />
-                <i class="fa-solid fa-magnifying-glass -mt-8 ml-72"></i>
+            <div class=" hidden lg:block">
+              <div class="flex-none gap-2 -mt-5">
+                <div class="form-control">
+                  <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-80 bg-white"   />
+                  <i class="fa-solid fa-magnifying-glass -mt-8 ml-72"></i>
+                </div>
               </div>
             </div>
           </div>
@@ -69,7 +71,7 @@
 
     <main>
           <!-- hero section -->
-          <div class="max-w-screen-xl mx-auto px-2 ">
+          <div class="max-w-screen-xl mx-auto px-2 py-6">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero lg:h-[600px]" style="background-image: url(./images/banner1.png);">
@@ -133,6 +135,48 @@
                   </div>
                 </div>
               </div>
+              <!-- extra hero  -->
+              <div class="hidden lg:block -mt-20">
+                <div class="card card-compact bg-base-100 shadow-xl w-[1000px] h-[160px] m-auto">
+                  <div class="flex">
+                    <div class="flex-1">
+                      <figure><img src="./images/fruit5.png" alt="Shoes" /></figure>
+                    <div class="">
+                      <h2 class="text-center">Apples</h2>
+                    </div>
+      
+                    </div>
+                    <div class="flex-1">
+                      <figure><img src="./images/fruit6.png" alt="Shoes" /></figure>
+                    <div class="">
+                      <h2 class="text-center">Apples</h2>
+                    </div>
+      
+                    </div>
+                    <div class="flex-1">
+                      <figure><img src="./images/fruit8.png" alt="Shoes" /></figure>
+                    <div class="">
+                      <h2 class="text-center">Strawberry</h2>
+                    </div>
+      
+                    </div>
+                    <div class="flex-1">
+                      <figure><img src="./images/fruit9.png" alt="Shoes" /></figure>
+                    <div class="">
+                      <h2 class="text-center">Banana</h2>
+                    </div>
+      
+                    </div>
+                    <div class="flex-1">
+                      <figure><img src="./images/fruit4.png" alt="Shoes" /></figure>
+                    <div class="">
+                      <h2 class="text-center">Strawberry</h2>
+                    </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         
           <!-- count down section -->
@@ -140,9 +184,9 @@
               <div class="lg:flex justify-around items-center gap-20">
                 <div class="flex-1">
                     <h3 class="text-center lg:text-left text-4xl font-extrabold pb-4">Deal of the day</h3>
-                    <p class="text-center lg:w-[480px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="text-center lg:text-left lg:w-[480px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                   </div>
-                  <div class="flex-1 ml-10 mt-4 lg:ml-[350px]">
+                  <div class="flex-1 ml-10 mt-4 md:ml-[210px] lg:ml-[350px]">
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
                           <span class="countdown font-mono text-5xl">
@@ -435,7 +479,7 @@
             <div class="lg:flex justify-around items-center gap-10">
            <!-- flex-section-1 -->
            <div class="flex-1">
-            <div class="flex flex-col lg:felx-row gap-2 justify-center items-center">
+            <div class="flex flex-col lg:flex-row gap-2 justify-center items-center">
               <div class="border rounded-full px-3 py-3 bg-slate-300 lg:-mt-8">
                 <i class="fa-solid fa-people-group"></i>
               </div>
